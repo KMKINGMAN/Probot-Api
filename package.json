@@ -1,22 +1,23 @@
 {
   "name": "kmcodes-probot-api",
-  "version": "1.0.0",
+  "version": "1.5.0",
   "description": "use probot.io api in your discord bot",
-  "main": "src/index.ts",
+  "main": "lib/index.js",
+  "types": "lib",
   "repository": "https://github.com/kmkingman",
   "author": "muhammad rafat kurkar [+962792914245]",
-  "license": "MIT",
+  "license": "BSL-1.0",
   "dependencies": {
     "axios": "^0.26.1"
   },
   "scripts": {
-    "start": "ts-node src/index.ts",
+    "build": "tsc -p .",
     "docs": "typedoc src/index.ts"
   },
   "devDependencies": {
+    "ts-node": "^10.7.0",
     "typedoc": "^0.22.13",
     "typedoc-plugin-missing-exports": "^0.22.6",
-    "ts-node": "^10.7.0",
     "typescript": "^4.6.2"
   }
 }
