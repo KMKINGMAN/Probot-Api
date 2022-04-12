@@ -154,3 +154,4 @@ class KINGMAN_PROBOT_API {
 export {
     KINGMAN_PROBOT_API as ProBot
 }
+export default KINGMAN_PROBOT_API;

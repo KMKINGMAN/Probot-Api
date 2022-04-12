@@ -64,4 +64,5 @@ declare class KINGMAN_PROBOT_API {
     getUserGuilds(): Promise<guild_data[]>;
 }
 export { KINGMAN_PROBOT_API as ProBot };
+export default KINGMAN_PROBOT_API;
 //# sourceMappingURL=index.d.ts.map
